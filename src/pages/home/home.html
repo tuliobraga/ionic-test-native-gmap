@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <div id="map"></div>
+  <ion-header>
+    <ion-input type="text" placeholder="Type you address..."></ion-input>
+  </ion-header>
+  <ion-footer>
+    <ion-row>
+      <ion-col>
+        <button ion-button block color="default" (click)="request()">Request</button>
+      </ion-col>
+      <ion-col>
+        <button ion-button block color="primary" (click)="schedule()">Schedule</button>
+      </ion-col>
+    </ion-row>
+  </ion-footer>
+
+</ion-content>
