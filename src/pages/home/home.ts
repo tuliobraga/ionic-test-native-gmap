@@ -45,7 +45,7 @@ export class HomePage {
 
     this.map.setDebuggable(true);
     this.map.on(GoogleMapsEvent.MAP_READY).subscribe(() => {
-        console.log('Map is ready!');
+        this.map.refreshLayout();
     });
   }
 
