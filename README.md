@@ -7,6 +7,7 @@ cd ionic-test-native-gmap/
 npm install
 mkdir www
 ionic plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="xxx" --variable API_KEY_FOR_IOS="xxx"
+ionic plugin add cordova-plugin-geolocation
 ionic platform add android
 ionic run android --device
 ```
